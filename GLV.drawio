@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-13T22:36:36.900Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="lBjk_VtY6OKFVDurgTTm" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-13T22:50:41.715Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="OjPZmI-njIl1WbCaKor0" version="21.2.9" type="github">
   <diagram name="Page-1" id="BcVqzwe_mRdca8MB3KrV">
-    <mxGraphModel dx="420" dy="221" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="368" dy="194" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -165,8 +165,8 @@
         <mxCell id="v1pvGCh-GkigHLZ5UNmK-9" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=2;strokeColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="670" y="120" width="120" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="v1pvGCh-GkigHLZ5UNmK-15" value="&quot;Throttle Demand&quot; and &quot;Regen Demand&quot; signals are sent over fault-tolerant CAN bus" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;fontSize=5;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="800" y="130" width="130" height="20" as="geometry" />
+        <mxCell id="v1pvGCh-GkigHLZ5UNmK-15" value="&quot;Throttle Demand&quot; and &quot;Regen Demand&quot; signals are sent over DIgital Pedal Bus (DPB) which will be a fault-tolerant CAN bus" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;fontSize=5;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="800" y="130" width="220" height="20" as="geometry" />
         </mxCell>
         <mxCell id="v1pvGCh-GkigHLZ5UNmK-16" value="ALL BSE and APPS outputs must facilitate detection of wiring failure, ie Normally Closed contact, 0.5-4.5V, 4-20mA, etc" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=bottom;whiteSpace=wrap;rounded=0;fontColor=#000000;fontSize=5;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="430" y="10" width="149" height="19.43" as="geometry" />
@@ -189,8 +189,17 @@
         <mxCell id="v1pvGCh-GkigHLZ5UNmK-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=-0.002;entryY=0.804;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#000000;" edge="1" parent="1" source="z27vIMXT-t29f3IuwXjS-30" target="v1pvGCh-GkigHLZ5UNmK-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="v1pvGCh-GkigHLZ5UNmK-23" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;This device performs the following functions:&lt;/span&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;APPS &quot;Implausibility Detection&quot; (T.4.2.5)&lt;/li&gt;&lt;li&gt;BSE &quot;Implausibility Detection&quot; (T.4.3.3)&lt;/li&gt;&lt;li&gt;APPS / Brake Pedal Plausibility Check (EV.5.7), ie if brake circuit pressure exceeds a digital threshold, the &quot;Throttle Demand&quot; signal will not be sent over DPB (PENDING RULES CLARIFICATION)&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;fontSize=5;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="v1pvGCh-GkigHLZ5UNmK-23" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;This device performs the following rules-required functions:&lt;/span&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;APPS &quot;Implausibility Detection&quot; (T.4.2.5)&lt;/li&gt;&lt;li&gt;BSE &quot;Implausibility Detection&quot; (T.4.3.3)&lt;/li&gt;&lt;li&gt;APPS / Brake Pedal Plausibility Check (EV.5.7), ie if brake circuit pressure exceeds a digital threshold, the &quot;Throttle Demand&quot; signal will not be sent over DPB (PENDING RULES CLARIFICATION)&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;fontSize=5;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="650" y="240" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v1pvGCh-GkigHLZ5UNmK-24" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=2;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="120" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="v1pvGCh-GkigHLZ5UNmK-25" value="DPB Receiver" style="text;html=1;fontSize=16;fontStyle=1;verticalAlign=middle;align=center;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="100" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="v1pvGCh-GkigHLZ5UNmK-26" value="INTERFACE TO BAMOCAR MOTOR CONTROLLER" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;fontSize=5;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="1150" y="170" width="80" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
