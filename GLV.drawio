@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-13T22:58:03.011Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="kGxbQDV884phsLcVIdX3" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-13T22:58:28.463Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="d4lVNhwiNtWdCgGzjHRH" version="21.2.9" type="github">
   <diagram name="Page-1" id="BcVqzwe_mRdca8MB3KrV">
     <mxGraphModel dx="1050" dy="552" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" background="#ffffff" math="0" shadow="0">
       <root>
@@ -168,7 +168,7 @@
         <mxCell id="v1pvGCh-GkigHLZ5UNmK-15" value="&quot;Throttle Demand&quot; and &quot;Regen Demand&quot; signals are sent over DIgital Pedal Bus (DPB) which will be a fault-tolerant CAN bus" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;fontSize=5;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="800" y="130" width="220" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="v1pvGCh-GkigHLZ5UNmK-16" value="ALL BSE and APPS outputs must facilitate detection of wiring failure, ie Normally Closed contact, 0.5-4.5V, 4-20mA, etc" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=bottom;whiteSpace=wrap;rounded=0;fontColor=#000000;fontSize=5;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="v1pvGCh-GkigHLZ5UNmK-16" value="BSE and APPS outputs must facilitate detection of wiring failure, ie Normally Closed contact, 0.5-4.5V, 4-20mA, etc (PENDING RULES CLARIFICATION)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=bottom;whiteSpace=wrap;rounded=0;fontColor=#000000;fontSize=5;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="430" y="10" width="149" height="19.43" as="geometry" />
         </mxCell>
         <mxCell id="v1pvGCh-GkigHLZ5UNmK-17" value="BSPD inputs must not pass through any other PCB, and the BSPD PCB should not have any outputs other than the shutdown circuit relay (based on reddit discussion of what judges allow at tech). It sounds like the judges want to see a splice in the actual harness, so if we want to avoid that ugliness, BSPD should have it&#39;s own dedicated sensor.&lt;br&gt;Read EV rules clarification doc for more discussion" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fontColor=#000000;fontSize=5;fontStyle=0;spacingTop=0;" vertex="1" parent="1">
