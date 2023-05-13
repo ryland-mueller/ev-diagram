@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-13T22:52:15.270Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="nuz1kF4Xn3yBVOCHTD7R" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-13T22:55:50.413Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="0oIdvOs2MACjcytzFwpL" version="21.2.9" type="github">
   <diagram name="Page-1" id="BcVqzwe_mRdca8MB3KrV">
     <mxGraphModel dx="1050" dy="552" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" background="#ffffff" math="0" shadow="0">
       <root>
@@ -171,8 +171,8 @@
         <mxCell id="v1pvGCh-GkigHLZ5UNmK-16" value="ALL BSE and APPS outputs must facilitate detection of wiring failure, ie Normally Closed contact, 0.5-4.5V, 4-20mA, etc" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=bottom;whiteSpace=wrap;rounded=0;fontColor=#000000;fontSize=5;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="430" y="10" width="149" height="19.43" as="geometry" />
         </mxCell>
-        <mxCell id="v1pvGCh-GkigHLZ5UNmK-17" value="BSPD inputs must not be shared with anything else" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=bottom;whiteSpace=wrap;rounded=0;fontColor=#000000;fontSize=5;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="330" y="340" width="90" height="19.43" as="geometry" />
+        <mxCell id="v1pvGCh-GkigHLZ5UNmK-17" value="BSPD inputs must not pass through any other PCB, and the BSPD PCB should not have any outputs other than the shutdown circuit relay (based on reddit discussion of what judges allow at tech). It sounds like the judges want to see a splice in the actual harness, so if we want to avoid that ugliness, BSPD should have it&#39;s own dedicated sensor.&lt;br&gt;Read EV rules clarification doc for more discussion" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fontColor=#000000;fontSize=5;fontStyle=0;spacingTop=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="320" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="v1pvGCh-GkigHLZ5UNmK-18" value="Values of all inputs and outputs are additionally sent over regular CAN bus for logging/monitoring/troubleshooting" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;fontSize=5;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="800" y="200" width="130" height="20" as="geometry" />
@@ -201,8 +201,8 @@
         <mxCell id="v1pvGCh-GkigHLZ5UNmK-26" value="INTERFACE TO BAMOCAR MOTOR CONTROLLER" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;fontSize=5;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="1150" y="170" width="80" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="v1pvGCh-GkigHLZ5UNmK-33" value="Remember there is also BOTS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=bottom;whiteSpace=wrap;rounded=0;fontColor=#000000;fontSize=5;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="300" y="91.17" width="60" height="19.43" as="geometry" />
+        <mxCell id="v1pvGCh-GkigHLZ5UNmK-33" value="Remember there is also BOTS (just carries shutdown circuit current, not an input to any circuits except if we get a DPST switch for logging BOTS position)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=bottom;whiteSpace=wrap;rounded=0;fontColor=#000000;fontSize=5;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="240" y="91.17" width="120" height="28.83" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
