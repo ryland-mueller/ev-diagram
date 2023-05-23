@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-23T00:26:30.859Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="lcfOoSgLMDQNFYxe8XiG" version="21.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-23T00:38:32.290Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="-i_w1noWYoM4Q_IhvjGH" version="21.3.0" type="github">
   <diagram name="Page-1" id="BcVqzwe_mRdca8MB3KrV">
-    <mxGraphModel dx="656" dy="366" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1235" dy="689" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -23,39 +23,50 @@
           <mxGeometry x="34.52000000000001" y="89.43" width="24.52" height="10" as="geometry" />
         </mxCell>
         <mxCell id="z27vIMXT-t29f3IuwXjS-35" value="BSPD (EV.8.7)" style="text;html=1;fontSize=16;fontStyle=1;verticalAlign=middle;align=center;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="430" y="250" width="120" height="20" as="geometry" />
+          <mxGeometry x="430" y="300" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="4gAwhsltyKzQ-symQKv4-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.008;entryY=0.856;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="z27vIMXT-t29f3IuwXjS-36" target="v1pvGCh-GkigHLZ5UNmK-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1000" y="395" />
+              <mxPoint x="1000" y="257" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4gAwhsltyKzQ-symQKv4-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=-0.005;entryY=0.845;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="z27vIMXT-t29f3IuwXjS-36" target="v1pvGCh-GkigHLZ5UNmK-9">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="z27vIMXT-t29f3IuwXjS-36" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=2;strokeColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="430" y="270" width="120" height="150" as="geometry" />
+          <mxGeometry x="430" y="320" width="120" height="150" as="geometry" />
         </mxCell>
         <mxCell id="z27vIMXT-t29f3IuwXjS-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#000000;endArrow=none;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" target="z27vIMXT-t29f3IuwXjS-57" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="460.5" y="365" as="sourcePoint" />
+            <mxPoint x="460.5" y="415" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="z27vIMXT-t29f3IuwXjS-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#000000;endArrow=none;endFill=0;" parent="1" source="z27vIMXT-t29f3IuwXjS-51" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="460" y="385" as="targetPoint" />
+            <mxPoint x="460" y="435" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="z27vIMXT-t29f3IuwXjS-51" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.capacitors.capacitor_3;strokeColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="470" y="370" width="40" height="30" as="geometry" />
+          <mxGeometry x="470" y="420" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="z27vIMXT-t29f3IuwXjS-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;strokeColor=#000000;" parent="1" source="z27vIMXT-t29f3IuwXjS-52" target="z27vIMXT-t29f3IuwXjS-51" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="520" y="385" />
+              <mxPoint x="520" y="435" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="z27vIMXT-t29f3IuwXjS-52" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.signal_sources.signal_ground;strokeColor=#000000;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="510" y="390" width="20" height="20" as="geometry" />
+          <mxGeometry x="510" y="440" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="z27vIMXT-t29f3IuwXjS-54" value="Delay" style="text;html=1;fontSize=10;fontStyle=0;verticalAlign=middle;align=center;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="470" y="400" width="40" height="10" as="geometry" />
+          <mxGeometry x="470" y="450" width="40" height="10" as="geometry" />
         </mxCell>
         <mxCell id="z27vIMXT-t29f3IuwXjS-59" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="423" y="460" width="75" height="55" as="geometry" />
+          <mxGeometry x="423" y="510" width="75" height="55" as="geometry" />
         </mxCell>
         <mxCell id="z27vIMXT-t29f3IuwXjS-56" value="" style="html=1;shape=mxgraph.electrical.electro-mechanical.singleSwitch;aspect=fixed;elSwitchState=off;strokeColor=#000000;" parent="z27vIMXT-t29f3IuwXjS-59" vertex="1">
           <mxGeometry y="25" width="75" height="20" as="geometry" />
@@ -66,11 +77,14 @@
         <mxCell id="z27vIMXT-t29f3IuwXjS-58" value="N.O." style="text;html=1;fontSize=10;fontStyle=0;verticalAlign=middle;align=center;fontColor=#000000;" parent="z27vIMXT-t29f3IuwXjS-59" vertex="1">
           <mxGeometry x="17.5" y="10" width="40" height="10" as="geometry" />
         </mxCell>
+        <mxCell id="4gAwhsltyKzQ-symQKv4-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.8;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.004;entryY=0.332;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="z27vIMXT-t29f3IuwXjS-63" target="z27vIMXT-t29f3IuwXjS-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="z27vIMXT-t29f3IuwXjS-63" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.inductors.current_transformer_1;strokeColor=#000000;rotation=0;" parent="1" vertex="1">
-          <mxGeometry x="271" y="320" width="10" height="50" as="geometry" />
+          <mxGeometry x="351" y="390" width="10" height="50" as="geometry" />
         </mxCell>
         <mxCell id="z27vIMXT-t29f3IuwXjS-66" value="Independant&lt;br&gt;Tractive Current&lt;br&gt;Sensor" style="text;html=1;fontSize=10;fontStyle=0;verticalAlign=middle;align=right;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="180" y="320" width="80" height="50" as="geometry" />
+          <mxGeometry x="260" y="390" width="80" height="50" as="geometry" />
         </mxCell>
         <mxCell id="v1pvGCh-GkigHLZ5UNmK-5" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="330" y="40" width="120" height="99.43" as="geometry" />
@@ -111,8 +125,8 @@
         <mxCell id="v1pvGCh-GkigHLZ5UNmK-16" value="&lt;b&gt;ALL&lt;/b&gt; BSE and APPS outputs must facilitate detection of wiring failure, ie Normally Closed contact, 0.5-4.5V, 4-20mA, etc (PENDING RULES CLARIFICATION)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=bottom;whiteSpace=wrap;rounded=0;fontColor=#000000;fontSize=5;fontStyle=0" parent="1" vertex="1">
           <mxGeometry x="430" y="10" width="149" height="19.43" as="geometry" />
         </mxCell>
-        <mxCell id="v1pvGCh-GkigHLZ5UNmK-17" value="BSPD must be completely non-programmable, so inputs must be direct (ie not over any digital bus). Buffered outputs of inputs will be provided for other devices." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fontColor=#000000;fontSize=5;fontStyle=0;spacingTop=0;" parent="1" vertex="1">
-          <mxGeometry x="570" y="390" width="130" height="60" as="geometry" />
+        <mxCell id="v1pvGCh-GkigHLZ5UNmK-17" value="BSPD must be completely non-programmable, so inputs must be direct (ie not over any digital bus). Buffered outputs of inputs will be provided for other devices.&lt;br&gt;&lt;br&gt;Since BSPD takes analog inputs from both front and rear of car, it will be positioned in the middle of the car longitudinally" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fontColor=#000000;fontSize=5;fontStyle=0;spacingTop=0;" parent="1" vertex="1">
+          <mxGeometry x="570" y="440" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="v1pvGCh-GkigHLZ5UNmK-18" value="Values of all inputs and outputs are additionally sent over regular CAN bus for logging/monitoring/troubleshooting" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;fontSize=5;fontStyle=0" parent="1" vertex="1">
           <mxGeometry x="800" y="200" width="130" height="20" as="geometry" />
@@ -120,17 +134,23 @@
         <mxCell id="v1pvGCh-GkigHLZ5UNmK-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.006;entryY=0.324;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#000000;" parent="1" source="z27vIMXT-t29f3IuwXjS-24" target="v1pvGCh-GkigHLZ5UNmK-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="v1pvGCh-GkigHLZ5UNmK-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=-0.006;entryY=0.447;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#000000;" parent="1" source="z27vIMXT-t29f3IuwXjS-23" target="v1pvGCh-GkigHLZ5UNmK-9" edge="1">
+        <mxCell id="v1pvGCh-GkigHLZ5UNmK-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;" parent="1" source="z27vIMXT-t29f3IuwXjS-23" target="v1pvGCh-GkigHLZ5UNmK-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="v1pvGCh-GkigHLZ5UNmK-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=-0.012;entryY=0.634;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#000000;" parent="1" source="v1pvGCh-GkigHLZ5UNmK-3" target="v1pvGCh-GkigHLZ5UNmK-9" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="v1pvGCh-GkigHLZ5UNmK-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#000000;" parent="1" source="v1pvGCh-GkigHLZ5UNmK-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="432" y="200" />
+              <mxPoint x="670" y="200" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="v1pvGCh-GkigHLZ5UNmK-23" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;This device performs the following rules-required functions:&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;APPS &quot;Implausibility Detection&quot; (&lt;b&gt;T.4.2.5&lt;/b&gt;)&lt;/li&gt;&lt;li&gt;BSE &quot;Implausibility Detection&quot; (&lt;b&gt;T.4.3.3&lt;/b&gt;)&lt;/li&gt;&lt;li&gt;APPS / Brake Pedal Plausibility Check (&lt;b&gt;EV.5.7&lt;/b&gt;), ie if brake circuit pressure exceeds a digital threshold while APPS position is over 25%, the &quot;Throttle Demand&quot; signal will not be sent over DPB (PENDING RULES CLARIFICATION)&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;fontSize=5;fontStyle=0" parent="1" vertex="1">
-          <mxGeometry x="650" y="240" width="160" height="60" as="geometry" />
+        <mxCell id="v1pvGCh-GkigHLZ5UNmK-23" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;This device performs the following rules-required functions:&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;APPS &quot;Implausibility Detection&quot; (&lt;b&gt;T.4.2.5&lt;/b&gt;)&lt;/li&gt;&lt;li&gt;BSE &quot;Implausibility Detection&quot; (&lt;b&gt;T.4.3.3&lt;/b&gt;)&lt;/li&gt;&lt;li&gt;APPS / Brake Pedal Plausibility Check (&lt;b&gt;EV.5.7&lt;/b&gt;), ie if brake circuit pressure exceeds a digital threshold while APPS position is over 25%, the &quot;Throttle Demand&quot; signal will not be sent over DPB (PENDING RULES CLARIFICATION)&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;In addition to the following functions:&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontColor=#000000;fontSize=5;fontStyle=0" parent="1" vertex="1">
+          <mxGeometry x="650" y="240" width="160" height="100" as="geometry" />
         </mxCell>
         <mxCell id="v1pvGCh-GkigHLZ5UNmK-24" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=2;strokeColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="1030" y="120" width="120" height="120" as="geometry" />
+          <mxGeometry x="1030" y="120" width="120" height="160" as="geometry" />
         </mxCell>
         <mxCell id="v1pvGCh-GkigHLZ5UNmK-25" value="DPB Receiver" style="text;html=1;fontSize=16;fontStyle=1;verticalAlign=middle;align=center;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="1030" y="100" width="120" height="20" as="geometry" />
@@ -142,16 +162,19 @@
           <mxGeometry x="110" y="91.17" width="120" height="28.83" as="geometry" />
         </mxCell>
         <mxCell id="v1pvGCh-GkigHLZ5UNmK-34" value="If the DPB receiver has not received the Throttle Demand signal from the DPB sender for 100ms, the motor controller must completely cut motor torque. The DPB sender will immediately stop sending the Throttle Demand signal when either APPS or BSE failure/implausibility is detected, but the 100ms delay allowed in those rules is implemented here in the receiver" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;fontSize=5;fontStyle=0" parent="1" vertex="1">
-          <mxGeometry x="1025" y="240" width="130" height="50" as="geometry" />
+          <mxGeometry x="1030" y="280" width="130" height="50" as="geometry" />
         </mxCell>
         <mxCell id="v1pvGCh-GkigHLZ5UNmK-35" value="0.5-4.5V or 4-20mA" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fontColor=#000000;fontSize=5;fontStyle=0;spacingTop=0;" parent="1" vertex="1">
-          <mxGeometry x="240" y="370" width="80" height="30" as="geometry" />
+          <mxGeometry x="320" y="440" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="z27vIMXT-t29f3IuwXjS-22" value="Pedal Position" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=bottom;whiteSpace=wrap;rounded=0;fontColor=#000000;fontSize=5;fontStyle=0" parent="1" vertex="1">
           <mxGeometry x="270" y="120" width="20" height="19.43" as="geometry" />
         </mxCell>
         <mxCell id="z27vIMXT-t29f3IuwXjS-3" value="" style="shape=image;verticalLabelPosition=bottom;verticalAlign=top;imageAspect=0;aspect=fixed;image=data:image/svg+xml,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbDpzcGFjZT0icHJlc2VydmUiIHZpZXdCb3g9IjAgMCAxNjIuMTY2IDM5MC4zMDQwMiIgaWQ9IkxheWVyXzEiIHZlcnNpb249IjEuMSIgd2lkdGg9IjI1My4zODQzNyIgaGVpZ2h0PSI2MDkuODUwMDQiIGZpbGw9IiMwMDAwMDAiPjxkZWZzIGlkPSJkZWZzODMiLz4mI3hhOyYjeGE7JiN4YTs8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMTc1LjA0OSwtNjAuODQ3OTM5KSIgaWQ9ImcxOCI+JiN4YTsJPGcgaWQ9ImcxNiI+JiN4YTsJCTxwYXRoIGlkPSJwYXRoMTQiIGQ9Im0gMjgzLjUzNiwxODQuODY1IGggLTEwLjUyIGwgLTAuMjc3LC0xNi4zNCBjIC0wLjA0MywtMi41MjMgLTAuNjYxLC01LjAwNiAtMS44MDYsLTcuMjU1IEwgMjI0LjQyNyw2OS45MjUgYyAtNC4xNjIsLTguMTc1IC0xNC4xNjUsLTExLjQyNyAtMjIuMzM3LC03LjI2NiAtOC4xNzUsNC4xNjIgLTExLjQyNywxNC4xNjIgLTcuMjY2LDIyLjMzNyBsIDQ0Ljc2NSw4Ny45MjYgMC4yMDMsMTEuOTQyIGggLTExLjA2NCBjIC0yOS41OTgsMCAtNTMuNjc5LDI0LjA4IC01My42NzksNTMuNjc5IHYgMTU4LjkzIGMgMCwyOS41OTggMjQuMDgsNTMuNjc5IDUzLjY3OSw1My42NzkgaCA1NC44MDggYyAyOS41OTgsMCA1My42NzksLTI0LjA4IDUzLjY3OSwtNTMuNjc5IHYgLTE1OC45MyBjIDAsLTI5LjU5OCAtMjQuMDgsLTUzLjY3OCAtNTMuNjc5LC01My42NzggeiBtIDIwLjQ2MSwyMTIuNjA5IGMgMCwxMS4yODEgLTkuMTc4LDIwLjQ2IC0yMC40NiwyMC40NiBoIC01NC44MDggYyAtMTEuMjgxLDAgLTIwLjQ2LC05LjE3OCAtMjAuNDYsLTIwLjQ2IFYgMjM4LjU0MyBjIDAsLTExLjI4MSA5LjE3OCwtMjAuNDYgMjAuNDYsLTIwLjQ2IGggNTQuODA4IGMgMTEuMjgxLDAgMjAuNDYsOS4xNzggMjAuNDYsMjAuNDYgeiIvPiYjeGE7CTwvZz4mI3hhOzwvZz4mI3hhOyYjeGE7JiN4YTsmI3hhOyYjeGE7PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTE3NS4wNDksLTYwLjg0NzkzOSkiIGlkPSJnNDgiPiYjeGE7CTxnIGlkPSJnNDYiPiYjeGE7CQk8cGF0aCBpZD0icGF0aDQ0IiBkPSJNIDI3My44NDksMjQ2Ljg2NSBIIDI0MC42MyBjIC05LjE3MywwIC0xNi42MDksNy40MzcgLTE2LjYwOSwxNi42MDkgMCw5LjE3MiA3LjQzNywxNi42MDkgMTYuNjA5LDE2LjYwOSBoIDMzLjIxOSBjIDkuMTczLDAgMTYuNjA5LC03LjQzNyAxNi42MDksLTE2LjYwOSAwLC05LjE3MiAtNy40MzUsLTE2LjYwOSAtMTYuNjA5LC0xNi42MDkgeiIvPiYjeGE7CTwvZz4mI3hhOzwvZz4mI3hhOzxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0xNzUuMDQ5LC02MC44NDc5MzkpIiBpZD0iZzU0Ij4mI3hhOwk8ZyBpZD0iZzUyIj4mI3hhOwkJPHBhdGggaWQ9InBhdGg1MCIgZD0iTSAyNzMuODQ5LDMwMS4zOTkgSCAyNDAuNjMgYyAtOS4xNzMsMCAtMTYuNjA5LDcuNDM3IC0xNi42MDksMTYuNjA5IDAsOS4xNzIgNy40MzcsMTYuNjA5IDE2LjYwOSwxNi42MDkgaCAzMy4yMTkgYyA5LjE3MywwIDE2LjYwOSwtNy40MzcgMTYuNjA5LC0xNi42MDkgMCwtOS4xNzIgLTcuNDM1LC0xNi42MDkgLTE2LjYwOSwtMTYuNjA5IHoiLz4mI3hhOwk8L2c+JiN4YTs8L2c+JiN4YTs8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMTc1LjA0OSwtNjAuODQ3OTM5KSIgaWQ9Imc2MCI+JiN4YTsJPGcgaWQ9Imc1OCI+JiN4YTsJCTxwYXRoIGlkPSJwYXRoNTYiIGQ9Ik0gMjczLjg0OSwzNTUuOTMzIEggMjQwLjYzIGMgLTkuMTczLDAgLTE2LjYwOSw3LjQzNyAtMTYuNjA5LDE2LjYwOSAwLDkuMTcyIDcuNDM3LDE2LjYwOSAxNi42MDksMTYuNjA5IGggMzMuMjE5IGMgOS4xNzMsMCAxNi42MDksLTcuNDM3IDE2LjYwOSwtMTYuNjA5IDAsLTkuMTcyIC03LjQzNSwtMTYuNjA5IC0xNi42MDksLTE2LjYwOSB6Ii8+JiN4YTsJPC9nPiYjeGE7PC9nPiYjeGE7JiN4YTsmI3hhOyYjeGE7PC9zdmc+" parent="1" vertex="1">
           <mxGeometry x="270" y="70.67000000000002" width="18.639999999999997" height="44.95111111111111" as="geometry" />
+        </mxCell>
+        <mxCell id="4gAwhsltyKzQ-symQKv4-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="z27vIMXT-t29f3IuwXjS-30" target="z27vIMXT-t29f3IuwXjS-36">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
