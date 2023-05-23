@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-23T00:39:51.679Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="3HDSZ_fOwhng3necvCbd" version="21.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-23T00:42:56.092Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="Q7HIQ6QoiLDljIKdzPZy" version="21.3.0" type="github">
   <diagram name="Page-1" id="BcVqzwe_mRdca8MB3KrV">
     <mxGraphModel dx="913" dy="510" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" background="#ffffff" math="0" shadow="0">
       <root>
@@ -162,8 +162,8 @@
         <mxCell id="v1pvGCh-GkigHLZ5UNmK-33" value="Remember there is also BOTS (just carries shutdown circuit current, not an input to any circuits except if we get a DPST switch for logging BOTS position)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=bottom;whiteSpace=wrap;rounded=0;fontColor=#000000;fontSize=5;fontStyle=0" parent="1" vertex="1">
           <mxGeometry x="110" y="91.17" width="120" height="28.83" as="geometry" />
         </mxCell>
-        <mxCell id="v1pvGCh-GkigHLZ5UNmK-34" value="If the DPB receiver has not received the Throttle Demand signal from the DPB sender for 100ms, the motor controller must completely cut motor torque. The DPB sender will immediately stop sending the Throttle Demand signal when either APPS or BSE failure/implausibility is detected, but the 100ms delay allowed in those rules is implemented here in the receiver" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;fontSize=5;fontStyle=0" parent="1" vertex="1">
-          <mxGeometry x="1030" y="280" width="130" height="50" as="geometry" />
+        <mxCell id="v1pvGCh-GkigHLZ5UNmK-34" value="If the DPB receiver has not received the Throttle Demand signal from the DPB sender for 100ms, the motor controller must completely cut motor torque. The DPB sender will immediately stop sending the Throttle Demand signal when either APPS or BSE failure/implausibility is detected, but the 100ms delay allowed in those rules is implemented here in the receiver&lt;br&gt;&lt;br&gt;If the Bamocar cannot internally power limit to 80kW, this device will perform this function (hence buffered TS current signal being wired to here).&lt;br&gt;&lt;br&gt;This device would also perform traction control, and should receive direct signals from wheel speed sensors." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fontColor=#000000;fontSize=5;fontStyle=0" parent="1" vertex="1">
+          <mxGeometry x="1030" y="280" width="130" height="100" as="geometry" />
         </mxCell>
         <mxCell id="v1pvGCh-GkigHLZ5UNmK-35" value="0.5-4.5V or 4-20mA" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fontColor=#000000;fontSize=5;fontStyle=0;spacingTop=0;" parent="1" vertex="1">
           <mxGeometry x="320" y="440" width="80" height="30" as="geometry" />
